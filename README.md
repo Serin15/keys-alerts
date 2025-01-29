@@ -6,6 +6,7 @@ This project uses **Selenium WebDriver** together with **unittest** to test inte
 ## Project Structure
 - **alerts.py** - Tests for JavaScript alerts
 - **keys.py** - Tests for keyboard interaction
+- **test_suite.py** - Test suite to run multiple test cases together
 
 ## Setup
 ### 1. Install Dependencies
@@ -28,6 +29,11 @@ python -m unittest alerts.py
 ### Keyboard Interaction Tests:
 ```sh
 python -m unittest keys.py
+```
+
+### Running the Full Test Suite:
+```sh
+python test_suite.py
 ```
 
 ## Author
